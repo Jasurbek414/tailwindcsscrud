@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar({hidden}) {
   return (
-    <nav className=" border-gray-200 bg-dark-purple">
+    <nav className=" border-gray-200 bg-gray-800">
       <div className=" max-w-screen flex flex-wrap items-center justify-between mx-auto p-4">
         <div className={`md:w-1/3 mx-auto ${hidden ? "max-sm:hidden" : ""}`}> 
           <input 

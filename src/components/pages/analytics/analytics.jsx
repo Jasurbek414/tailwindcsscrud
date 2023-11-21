@@ -109,26 +109,26 @@ export default function Analytics() {
   return (
     <>
       <div className="flex flex-wrap w-full justify-between pt-0 mt-0 items-center">
-        <div className="px-24 py-4 bg-dark-purple rounded">
+        <div className="px-24 py-4 bg-gray-800 rounded">
           <h1 className="text-white">Kirim:</h1>
         </div>
-        <div className="px-24 py-4 bg-dark-purple rounded">
+        <div className="px-24 py-4 bg-gray-800 rounded">
           <h1 className="text-white">Chiqim:</h1>
         </div>
-        <div className="px-24 py-4 bg-dark-purple rounded">
+        <div className="px-24 py-4 bg-gray-800 rounded">
           <h1 className="text-white">Summa:</h1>
         </div>
-        <div className="px-24 py-4 bg-dark-purple rounded">
+        <div className="px-24 py-4 bg-gray-800 rounded">
           <h1 className="text-white">Jami:</h1>
         </div>
       </div>
 
-      <div className="h-full relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-dark-purple mt-6">
+      <div className=" relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-gray-800 mt-6">
         <div className="rounded-t mb-0 px-4 py-3 bg-transparent"></div>
         <div className="p-4 flex-auto">
           <div className="relative h-[500px]">
             <canvas
-              className="max-w-full bg-dark-purple"
+              className="max-w-full bg-dark-gray-800"
               id="line-chart"
             ></canvas>
           </div>

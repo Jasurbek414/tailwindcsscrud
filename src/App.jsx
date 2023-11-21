@@ -14,12 +14,15 @@ import {
 import { Link, useLocation } from "react-router-dom";
 import Pagesrouter from "./components/routes/pagesrouter.js";
 import Navbar from "./components/navbar/navbar.jsx";
+// import LoginPage from "./components/pages/loginpage/loginpage.jsx";
 
 
 
 function App() {
   const {pathname}=useLocation()
   const [open, setOpen] = useState(true);
+  // const [isLoggedIn, setIsLoggedIn] = useState(false);
+
   const Menus = [
     { title: "Dashboard", to: "/dashboard", src: Chart_fill },
     { title: "Search", to: "/search", src: Setting },
@@ -31,12 +34,31 @@ function App() {
     { title: "Setting", to: "/setting", src: Search },
   ];
 
+
+
+
+// Loginpagega otkazish
+
+//   useEffect(()=>{
+//     let token = localStorage.getItem('token')
+//     if(token) setIsLoggedIn(false)
+// },[])
+
+// if(!isLoggedIn) {
+//   return <LoginPage/>
+// }
+
+
+
+
+
+
   return (
     <div className="flex">
       <div
         className={`${
           open ? "w-72" : "w-20"
-        } duration-300 p-5 pt-8 h-screen bg-dark-purple relative`}
+        } duration-300 p-5 pt-8 h-screen bg-gray-800 relative `}
       >
         <img
           src={control}
@@ -82,7 +104,7 @@ function App() {
         
         <div className="font-medium flex-1 h-screen ">
           <Navbar hidden={open}/>
-          <div className='p-4 pr-2 pt-5 pb-0'>
+          <div className='p-4 pr-2 pt-5 pb-0   bg-gray-600'>
           <Pagesrouter />
           </div>
         </div>
