@@ -15,6 +15,7 @@ import { Link, useLocation } from "react-router-dom";
 import Pagesrouter from "./components/routes/pagesrouter.js";
 import Navbar from "./components/navbar/navbar.jsx";
 // import LoginPage from "./components/pages/loginpage/loginpage.jsx";
+// Jasurbek
 
 
 
