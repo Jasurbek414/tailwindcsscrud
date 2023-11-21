@@ -8,7 +8,7 @@ function Navbar({hidden}) {
           <input 
             type="text" 
             id="search-navbar" 
-            className="block w-full p-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500  mx-auto" /* Added mx-auto class for center alignment */
+            className="block w-full p-2 text-xl text-gray-900 border  rounded-lg bg-gray-500    mx-auto" 
             placeholder="Search..."
           />
         </div>
